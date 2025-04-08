@@ -41,4 +41,4 @@
 
 
 ## 🎬 시연 화면
-![Demo GIF](./LoginService/image.png)
+![Demo GIF](./image.png)
