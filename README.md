@@ -9,7 +9,6 @@
 - 🛡️ 비밀번호 암호화 (BCrypt)
 - ❌ 인증 예외 및 예외 처리
 - 📂 계층별 구조를 갖춘 깔끔한 설계
-
 ---
 
 ## 🛠️ 사용 기술 스택
@@ -22,8 +21,7 @@
 | ORM | JPA (Hibernate) |
 | Database | MySQL |
 | 인증 방식 | Session + Cookie |
-| 암호화 | Spring Security (BCrypt) |
-
 ---
 
 ## 📁 프로젝트 구조
+com.example.Heeseung ├── HeeseungApplication.java └── controller ├── MemberContoller.java └── QuestionController.java
