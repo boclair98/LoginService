@@ -24,13 +24,18 @@
 ---
 
 ## 📁 프로젝트 구조
-src/
-└── main/
-    └── java/
-        └── com/
-            └── example/
-                └── Heeseung/
-                    ├── HeeseungApplication.java
-                    ├── Controller/
-                    │   ├── MemberContoller.java
-                    │   └── QuestionController.java
+com.example.Heeseung
+  ├── HeeseungApplication.java
+    └── Controller 
+      ├── pcontoller.java
+    └── DTO
+      ├── MemberDTO
+    ├── Entity
+      ├──Member
+      ├──Board
+    ├──Repository
+      ├──BoardRepository
+      ├──MemberRepository
+    ├──Service
+      ├──BoardService
+      ├──MemberService
