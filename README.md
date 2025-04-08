@@ -24,4 +24,13 @@
 ---
 
 ## 📁 프로젝트 구조
-com.example.Heeseung ├── HeeseungApplication.java └── controller ├── MemberContoller.java └── QuestionController.java
+src/
+└── main/
+    └── java/
+        └── com/
+            └── example/
+                └── Heeseung/
+                    ├── HeeseungApplication.java
+                    ├── Controller/
+                    │   ├── MemberContoller.java
+                    │   └── QuestionController.java
