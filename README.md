@@ -6,7 +6,6 @@
 - ✅ 사용자 회원가입
 - 🔐 로그인 및 로그아웃 처리
 - 🍪 세션 + 쿠키 기반 인증 처리
-- 🛡️ 비밀번호 암호화 (BCrypt)
 - ❌ 인증 예외 및 예외 처리
 - 📂 계층별 구조를 갖춘 깔끔한 설계
 ---
@@ -24,18 +23,18 @@
 ---
 
 ## 📁 프로젝트 구조
-com.example.Heeseung
-  ├── HeeseungApplication.java
-    └── Controller 
-      ├── pcontoller.java
-    └── DTO
-      ├── MemberDTO
-    ├── Entity
-      ├──Member
-      ├──Board
-    ├──Repository
-      ├──BoardRepository
-      ├──MemberRepository
-    ├──Service
-      ├──BoardService
-      ├──MemberService
+📦 com.example.Heeseung  
+┣ 📄 HeeseungApplication.java  
+┣ 📂 controller  
+┃ ┗ 📄 PController.java  
+┣ 📂 dto  
+┃ ┗ 📄 MemberDTO.java  
+┣ 📂 entity  
+┃ ┣ 📄 Member.java  
+┃ ┗ 📄 Board.java  
+┣ 📂 repository  
+┃ ┣ 📄 BoardRepository.java  
+┃ ┗ 📄 MemberRepository.java  
+┗ 📂 service  
+  ┣ 📄 BoardService.java  
+  ┗ 📄 MemberService.java 
