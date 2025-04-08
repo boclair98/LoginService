@@ -41,4 +41,4 @@
 
 
 ## 🎬 시연 화면 (GIF)
-![Demo GIF](./images/image.gif)
+![Demo GIF](./images/image.png)
