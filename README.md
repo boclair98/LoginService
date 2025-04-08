@@ -40,5 +40,5 @@
   ┗ 📄 MemberService.java 
 
 
-## 🎬 시연 화면 (GIF)
-![Demo GIF](./images/image.png)
+## 🎬 시연 화면
+![Demo GIF](./LoginService/image.png)
